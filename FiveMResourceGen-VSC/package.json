@@ -1,9 +1,8 @@
 {
 	"publisher": "ResourceGeneratorFiveM",
-	"name": "resource-generator-fivem",
 	"displayName": "Resource Generator FiveM",
 	"description": "This extension help you creating a new basic lua resource for FiveM",
-	"version": "0.0.4",
+	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
@@ -11,27 +10,24 @@
 		"Other"
 	],
 	"author": {
-		"name": "Bentozox"
+		"name": "marshxan"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Bentozox/Resource-generator-FiveM-VS-code"
+		"url": "https://github.com/marshxan/FiveMResourceGen-VSC-VS-code"
 	},
 	"icon": "preview/fivem.png",
-	"homepage": "https://github.com/Bentozox/Resource-generator-FiveM-VS-code",
+	"homepage": "https://github.com/marshxan/FiveMResourceGen-VSC-VS-code",
 	"license": "GPLv3",
 	"keywords": [
 		"fivem",
 		"lua",
 		"resource",
 		"script",
-		"Bentozox",
+		"marshxan",
 		"gta",
 		"generator",
 		"générateur"
-	],
-	"activationEvents": [
-		"onCommand:resource-generator-fivem.generate-resource"
 	],
 	"main": "./extension.js",
 	"files": [
@@ -41,14 +37,14 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "resource-generator-fivem.generate-resource",
+				"command": "FiveMResourceGen-VSC.generate-resource",
 				"title": "Generate FiveM resource"
 			}
 		],
     "menus": {
 				"explorer/context": [{
 						"when": "explorerResourceIsFolder",
-						"command": "resource-generator-fivem.generate-resource"
+						"command": "FiveMResourceGen-VSC.generate-resource"
 			}]
 		}
 	},
