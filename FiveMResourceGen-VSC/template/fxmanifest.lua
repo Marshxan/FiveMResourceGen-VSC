@@ -1,19 +1,18 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
 
-name "${resourceName}"
 description "${description}"
 author "${author}"
-version "${version}"
 
 shared_scripts {
-	'shared/*.lua'
+	'shared/*.lua',
 }
 
 client_scripts {
-	'client/*.lua'
+	'client/*.lua',
 }
 
 server_scripts {
-	'server/*.lua'
+	'server/*.lua',
 }

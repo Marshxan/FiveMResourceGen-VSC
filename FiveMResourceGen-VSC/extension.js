@@ -32,32 +32,25 @@ function deactivate() {}
 var InputData = {
 	resourceName : {
 		title : "Resource name",
-		placeholder : "B_Jobs, Phone, esx_garage, ...",
-		nextInput : "description",
-		value : "",
-		input : null
-	},
-	description : {
-		title : "Resource description",
-		placeholder : "This resource is ...",
+		placeholder : "frostyy_",
 		nextInput : "author",
 		value : "",
 		input : null
 	},
 	author : {
 		title : "Resource author",
-		placeholder : "Bentozox, ...",
-		nextInput : "version",
+		placeholder : "FrostyyDevs",
+		nextInput : "description",
 		value : "",
 		input : null
 	},
-	version : {
-		title : "Resource version",
-		placeholder : "1.0.0, ...",
+	description : {
+		title : "Resource description",
+		placeholder : "https://frostyy.xyz",
 		nextInput : "",
 		value : "",
 		input : null
-	}
+	},
 }
 
 var startInput = "resourceName"
